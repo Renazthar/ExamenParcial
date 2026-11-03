@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Carro",
+    "slug": "navigationdrawer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/faviconn.png",
+    "scheme": "navigationdrawer",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/faviconn.png",
+        "monochromeImage": "./assets/images/faviconn.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.renazz.navigationdrawer"
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "12b8b34e-e85d-410d-8aac-c52efdef02d4"
+      }
+    }
+  }
+}
